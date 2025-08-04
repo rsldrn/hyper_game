@@ -1,4 +1,3 @@
-using System;
 using Enums;
 using UnityEngine;
 public class Enemy : MonoBehaviour
