@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yamy\\hyper_game_project1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|c:\\users\\yamy\\hyper_game_project1\\assets\\scripts\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playeranimator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|C:\\Users\\Yamy\\hyper_game_project1\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|c:\\users\\yamy\\hyper_game_project1\\assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\uimanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|C:\\Users\\Yamy\\hyper_game_project1\\assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|C:\\Users\\Yamy\\hyper_game_project1\\assets\\scripts\\playerdection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerdection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|C:\\Users\\Yamy\\hyper_game_project1\\assets\\scripts\\chunkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chunkmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|C:\\Users\\Yamy\\hyper_game_project1\\assets\\scripts\\doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\doors.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|C:\\Users\\Yamy\\hyper_game_project1\\assets\\scripts\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\chunk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|C:\\Users\\Yamy\\hyper_game_project1\\assets\\scripts\\crowdsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crowdsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|C:\\Users\\Yamy\\hyper_game_project1\\assets\\scripts\\crowdcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{17000CB8-1EB4-F857-141D-E952226553C5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\crowdcounter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerAnimator.cs",
+              "DocumentMoniker": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\PlayerAnimator.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerAnimator.cs",
+              "ToolTip": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\PlayerAnimator.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerAnimator.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA+wCQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T11:09:24.946Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UIManager.cs",
+              "DocumentMoniker": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\UIManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UIManager.cs",
+              "ToolTip": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\UIManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UIManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T08:18:34.916Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Doors.cs",
+              "DocumentMoniker": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\Doors.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Doors.cs",
+              "ToolTip": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\Doors.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Doors.cs",
+              "ViewState": "AgIAAF8AAAAAAAAAAAAowA8AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-22T13:31:40.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ChunkManager.cs",
+              "DocumentMoniker": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\ChunkManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ChunkManager.cs",
+              "ToolTip": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\ChunkManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ChunkManager.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAQwAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:38:49.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Chunk.cs",
+              "DocumentMoniker": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\Chunk.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Chunk.cs",
+              "ToolTip": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\Chunk.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Chunk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T13:20:29.838Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CrowdCounter.cs",
+              "DocumentMoniker": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\CrowdCounter.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CrowdCounter.cs",
+              "ToolTip": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\CrowdCounter.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CrowdCounter.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T12:41:57.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CrowdSystem.cs",
+              "DocumentMoniker": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\CrowdSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CrowdSystem.cs",
+              "ToolTip": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\CrowdSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CrowdSystem.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswFcAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T11:08:48.638Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCwAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-21T08:14:04.574Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameManager.cs",
+              "ToolTip": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameManager.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAxwAwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-24T07:29:07.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerDection.cs",
+              "DocumentMoniker": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\PlayerDection.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerDection.cs",
+              "ToolTip": "C:\\Users\\Yamy\\hyper_game_project1\\Assets\\Scripts\\PlayerDection.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerDection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAACGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-23T07:13:06.066Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
