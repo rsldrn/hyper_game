@@ -39,13 +39,13 @@ public class UIManager : MonoBehaviour
         UpdateProgressBar(); 
     }
 
-    private void GameStateChangeCallback(GameState gameState) //
+    private void GameStateChangeCallback(GameState gameState) 
     {
-        if (gameState == GameState.GameOver) //
+        if (gameState == GameState.GameOver) 
         {
             ShowGameOverPanel();
         }
-        else if (gameState == GameState.LevelComplete)//
+        else if (gameState == GameState.LevelComplete)
         {
             ShowLevelCompletePanel();
         }
@@ -53,7 +53,7 @@ public class UIManager : MonoBehaviour
 
     public void PlayButtonPressed()
     {
-        GameManager.instance.SetGameState(GameState.Game);//
+        GameManager.instance.SetGameState(GameState.Game);
 
         menuPanel.SetActive(false);
         gamePanel.SetActive(true);
