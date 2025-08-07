@@ -35,7 +35,7 @@ public class PlayerDetection : MonoBehaviour
             // else if (detectedColliders[i].tag == "Finish" && !_hasFinished)
             // {
             //     PlayerPrefs.SetInt("level", PlayerPrefs.GetInt("level") + 1);
-            //     GameManager.instance.SetGameState(GameState.LevelComplete); //
+            //     GameManager.instance.SetGameState(GameState.LevelComplete); // finish tag'i yerine progress bar %100 (%91) olunca complete edilir(UI manager)
             //     
             //     _hasFinished = true; // <-- bayrak eklendi ??? 
             // }

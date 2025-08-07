@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class UIManager : MonoBehaviour
+public class UIManager : MonoBehaviour  
 {
     [SerializeField] private GameObject menuPanel;
     [SerializeField] private GameObject gamePanel;
@@ -13,7 +13,7 @@ public class UIManager : MonoBehaviour
     [SerializeField] private Slider progressBar;
     [SerializeField] private Text levelText;
     
-    private bool hasLevelCompleted = false; // Level tamamlanma bayrağı
+    private bool hasLevelCompleted; // Level tamamlanma bayragi
 
 
     
@@ -36,7 +36,7 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
-        UpdateProgressBar();
+        UpdateProgressBar(); 
     }
 
     private void GameStateChangeCallback(GameState gameState) //
@@ -89,7 +89,7 @@ public class UIManager : MonoBehaviour
         progressBar.value = progress;
         
         // Progress bar 1.0'a ulastiginda level tamamlama
-        if (progress >= 0.9f && !hasLevelCompleted)
+        if (progress >= 1f && !hasLevelCompleted)
         {
             hasLevelCompleted = true;
             PlayerPrefs.SetInt("level", PlayerPrefs.GetInt("level") + 1);
