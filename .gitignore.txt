@@ -1,31 +1,13 @@
-# Unity Temp klasörü
-[Tt]emp/
-
-# Unity Library klasörü
 [Ll]ibrary/
-
-# Build klasörleri
-[Bb]uild/
-[Bb]uilds/
-
-# Obj klasörü
+[Tt]emp/
 [Oo]bj/
-
-# Log dosyaları
+[Bb]uild/
 [Ll]ogs/
-
-# Kullanıcı ayarları
-UserSettings/
-
-# Rider, VSCode, diğer IDE dosyaları
-.idea/
-.vscode/
-*.csproj
-*.sln
 *.user
-*.pidb
+*.csproj
 *.unityproj
-
-# Sistem dosyaları
-.DS_Store
-Thumbs.db
+*.sln
+*.suo
+.vs/
+.idea/
+*.apk
