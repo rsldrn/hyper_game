@@ -17,17 +17,22 @@ public class Bullet : MonoBehaviour
     }
     private void OnTriggerEnter(Collider other)
     {
-        // if (other.TryGetComponent<Enemy>(out var enemy)) // Enemy.cs varsa  //altarnetif yol
+        // if (other.TryGetComponent<Enemy>(out var enemy))  //altarnetif yol
         // {
-        //     Destroy(enemy.gameObject);   // Enemy'yi yok et
-        //     Destroy(gameObject);         // Bullet'i yok et
+        //     Destroy(enemy.gameObject);  
+        //     Destroy(gameObject);         
         // }
 
-        if (other.GetComponent<Enemy>())
-        {
-            Destroy(other.gameObject);
-            Destroy(gameObject);
-        }
+        // if (other.GetComponent<Enemy>())    // Enemy.cs varsa
+        // {
+        //     Destroy(other.gameObject);      // Enemy'yi yok et
+        //     Destroy(gameObject);            // Bullet'i yok et
+        // }
         
+        if (other.TryGetComponent<Enemy>(out var enemy))
+        {
+            enemy.TakeDamage(1);  // 1 hasar ver
+            Destroy(gameObject);  // Mermiyi yok et
+        }
     } 
 }

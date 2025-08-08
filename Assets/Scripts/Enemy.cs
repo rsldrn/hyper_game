@@ -10,15 +10,34 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Transform targetRunner;
     
     [SerializeField] private Animator animator;
+    
+    [SerializeField] private int maxHealth = 1;  // Default 1 bullet
+    private int currentHealth;
 
     private void Awake()
     {
-        animator = GetComponent<Animator>(); 
+        animator = GetComponent<Animator>();
+        currentHealth = maxHealth;
     }
     void Update()
     {
         ManageState();
     }
+    public void SetHealth(int health)
+    {
+        maxHealth = health;
+        currentHealth = health;
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        if (currentHealth <= 0)
+        {
+            Destroy(gameObject);
+        }
+    }
+
 
     private void ManageState()
     {

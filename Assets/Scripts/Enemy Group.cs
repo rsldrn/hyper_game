@@ -10,6 +10,8 @@ public class EnemyGroup : MonoBehaviour
     [SerializeField] private int amount;
     [SerializeField] private float radius;
     [SerializeField] private float angel;
+    
+    [SerializeField] private int enemyHealth = 1; // Bu grup dusmanlarinin cani
     void Start()
     {
         EnemyGenerate();
@@ -17,11 +19,21 @@ public class EnemyGroup : MonoBehaviour
 
     private void EnemyGenerate()
     {
+        // for (int i = 0; i < amount; i++)
+        // {
+        //     Vector3 enemyLocalPosition = PlayerRunnerLocalPosition(i);
+        //     enemyLocalPosition += transform.position;
+        //     Instantiate(enemyPrefab, enemyLocalPosition, Quaternion.identity, enemyParent);
+        // }
+        
         for (int i = 0; i < amount; i++)
         {
             Vector3 enemyLocalPosition = PlayerRunnerLocalPosition(i);
             enemyLocalPosition += transform.position;
-            Instantiate(enemyPrefab, enemyLocalPosition, Quaternion.identity, enemyParent);
+
+            Enemy newEnemy = Instantiate(enemyPrefab, enemyLocalPosition, Quaternion.identity, enemyParent);
+        
+            newEnemy.SetHealth(enemyHealth); // Burada tum dusmanlara ayni health ataniyor
         }
     }
     
