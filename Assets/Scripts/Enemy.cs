@@ -34,7 +34,7 @@ public class Enemy : MonoBehaviour
         }
     }
 
-    private void SearchForTarget() //runnerlarin tespit edilip enemylerin bu runnerlara dogru kosma metodunun cagrilmasi
+    private void SearchForTarget()
     {
         Collider[] detectedColliders = Physics.OverlapSphere(transform.position, searchRadius);
         for (int i = 0; i < detectedColliders.Length; i++)
