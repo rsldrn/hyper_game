@@ -1,9 +1,0 @@
-com.DefaultCompany.hyper_game_project1.launcher-pngs-0 C:\Users\Yamy\hyper_game_project1\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\pngs\release
-com.DefaultCompany.hyper_game_project1.launcher-resValues-1 C:\Users\Yamy\hyper_game_project1\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\resValues\release
-com.DefaultCompany.hyper_game_project1.launcher-rs-2 C:\Users\Yamy\hyper_game_project1\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\generated\res\rs\release
-com.DefaultCompany.hyper_game_project1.launcher-mergeReleaseResources-3 C:\Users\Yamy\hyper_game_project1\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\merged.dir
-com.DefaultCompany.hyper_game_project1.launcher-mergeReleaseResources-4 C:\Users\Yamy\hyper_game_project1\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\incremental\release\mergeReleaseResources\stripped.dir
-com.DefaultCompany.hyper_game_project1.launcher-merged_res-5 C:\Users\Yamy\hyper_game_project1\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\build\intermediates\merged_res\release
-com.DefaultCompany.hyper_game_project1.launcher-main-6 C:\Users\Yamy\hyper_game_project1\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\main\res
-com.DefaultCompany.hyper_game_project1.launcher-release-7 C:\Users\Yamy\hyper_game_project1\Library\Bee\Android\Prj\Mono2x\Gradle\launcher\src\release\res
-com.DefaultCompany.hyper_game_project1.launcher-packaged_res-8 C:\Users\Yamy\hyper_game_project1\Library\Bee\Android\Prj\Mono2x\Gradle\unityLibrary\build\intermediates\packaged_res\release
