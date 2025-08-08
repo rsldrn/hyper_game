@@ -9,8 +9,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private EnemyState state;
     [SerializeField] private Transform targetRunner;
     
-    [SerializeField] private Animator animator; 
-    [SerializeField] private int enemyHealth = 2;
+    [SerializeField] private Animator animator;
 
     private void Awake()
     {
