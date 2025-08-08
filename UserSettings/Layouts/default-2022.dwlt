@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1521.6
     height: 744.8
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -173,7 +173,7 @@ MonoBehaviour:
   m_MinSize: {x: 400, y: 100}
   m_MaxSize: {x: 32384, y: 16192}
   vertical: 0
-  controlID: 103
+  controlID: 75
   draggingID: 0
 --- !u!114 &8
 MonoBehaviour:
@@ -318,7 +318,7 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 5a500000
+      m_SelectedIDs: 
       m_LastClickedID: 0
       m_ExpandedIDs: 10fbffff
       m_RenameOverlay:
@@ -724,7 +724,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.17601831, y: -0.38542378, z: 0.07531763, w: -0.90285784}
     speed: 2
-    m_Value: {x: -0.17598674, y: -0.38535464, z: 0.07530412, w: -0.9026959}
+    m_Value: {x: 0.17601833, y: 0.38542378, z: -0.07531763, w: 0.9028579}
   m_Size:
     m_Target: 27.51438
     speed: 2
@@ -940,7 +940,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 1
+    m_HadKeyboardFocusLastEvent: 0
     m_ExpandedInstanceIDs: c6230000aa78000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0

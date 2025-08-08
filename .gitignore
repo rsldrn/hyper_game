@@ -1,2 +1,14 @@
-Library/
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Ll]ogs/
+*.user
+*.csproj
+*.unityproj
+*.sln
+*.suo
+.vs/
+.idea/
+*.apk
 *.log
