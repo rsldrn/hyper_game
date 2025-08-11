@@ -11,7 +11,7 @@ public class EnemyGroup : MonoBehaviour
     [SerializeField] private float radius;
     [SerializeField] private float angel;
     
-    [SerializeField] private int enemyHealth = 1; // Bu grup dusmanlarinin cani
+    [SerializeField] private int enemyHealth = 1; //grup dusmanlarinin cani
     void Start()
     {
         EnemyGenerate();

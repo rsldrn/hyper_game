@@ -2,7 +2,6 @@ using Enums;
 using UnityEngine;
 public class Enemy : MonoBehaviour
 {
-    //enum State {Idle, Running}
     [Header("Settings")] 
     [SerializeField] private float searchRadius;
     [SerializeField] private float moveSpeed;

@@ -1,38 +1,41 @@
 using UnityEngine;
+using System.Collections;
 
 public class Bullet : MonoBehaviour
 {
     public float speed = 10f;
     public float lifetime = 3f;
-    
 
-    void Start()
+    private Coroutine disableCoroutine;
+
+    private void OnEnable()
     {
-        Destroy(gameObject, lifetime);
+        disableCoroutine = StartCoroutine(DisableAfterTime(lifetime));
     }
 
-    void Update()
+    private void OnDisable()
+    {
+        if (disableCoroutine != null)
+            StopCoroutine(disableCoroutine);
+    }
+
+    private void Update()
     {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
     }
+
+    private IEnumerator DisableAfterTime(float time)
+    {
+        yield return new WaitForSeconds(time);
+        BulletPool.Instance.ReturnBullet(gameObject);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
-        // if (other.TryGetComponent<Enemy>(out var enemy))  //altarnetif yol
-        // {
-        //     Destroy(enemy.gameObject);  
-        //     Destroy(gameObject);         
-        // }
-
-        // if (other.GetComponent<Enemy>())    // Enemy.cs varsa
-        // {
-        //     Destroy(other.gameObject);      // Enemy'yi yok et
-        //     Destroy(gameObject);            // Bullet'i yok et
-        // }
-        
         if (other.TryGetComponent<Enemy>(out var enemy))
         {
-            enemy.TakeDamage(1);  // 1 hasar ver
-            Destroy(gameObject);  // Mermiyi yok et
+            enemy.TakeDamage(1);
+            BulletPool.Instance.ReturnBullet(gameObject);
         }
-    } 
+    }
 }
