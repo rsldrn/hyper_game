@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     [SerializeField] private Animator animator;
     
     [SerializeField] private int maxHealth = 1;  // Default 1 bullet
-    private int currentHealth;
+    [SerializeField] private int currentHealth;
 
     private void Awake()
     {

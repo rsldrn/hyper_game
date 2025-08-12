@@ -5,7 +5,7 @@ public class ShootingRunner : MonoBehaviour
 {
     public Transform bulletSpawnPoint;
 
-    private bool isShooting;
+    [SerializeField] private bool isShooting;
 
     public void StartShooting()
     {
@@ -23,6 +23,8 @@ public class ShootingRunner : MonoBehaviour
             GameObject bullet = BulletPool.Instance.GetBullet();
             bullet.transform.position = bulletSpawnPoint.position;
             bullet.transform.rotation = bulletSpawnPoint.rotation;
+            
+            AudioManager.Instance?.PlayShoot();
 
             yield return new WaitForSeconds(0.3f);
             timer += 0.3f;
