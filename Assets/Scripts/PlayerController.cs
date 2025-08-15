@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
         GameManager.onGameStateChanged += GameStateChangeCallback;
     }
 
-    private void OnDestroy() //nesne yok edilmeden hemen once çagrilir
+    private void OnDestroy() //nesne yok edilmeden hemen once cagrilir
     {
         GameManager.onGameStateChanged -= GameStateChangeCallback; //Daha once abone olunan onGameStateChanged olayindan çikiliır (unsubscribe).
     }
@@ -62,13 +62,13 @@ public class PlayerController : MonoBehaviour
         playerAnimator.Idle(); 
     }
 
-    private void GameStateChangeCallback(GameState gameState)//
+    private void GameStateChangeCallback(GameState gameState)
     {
-        if(gameState == GameState.Game)//
+        if(gameState == GameState.Game)
         {
             StartMoving();
         }
-        else if (gameState == GameState.LevelComplete)//
+        else if (gameState == GameState.LevelComplete)
         {
             StopMoving();
         }

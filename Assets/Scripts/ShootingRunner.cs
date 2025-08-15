@@ -24,12 +24,11 @@ public class ShootingRunner : MonoBehaviour
             bullet.transform.position = bulletSpawnPoint.position;
             bullet.transform.rotation = bulletSpawnPoint.rotation;
             
-            AudioManager.Instance?.PlayShoot();
+            AudioManager.Instance?.PlayShoot(); 
 
             yield return new WaitForSeconds(0.3f);
             timer += 0.3f;
         }
-
         isShooting = false;
     }
 }

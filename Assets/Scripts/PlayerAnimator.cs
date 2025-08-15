@@ -1,4 +1,3 @@
-using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerAnimator : MonoBehaviour // buradaki get componentler metod icinde kalirsa sikinti olur mu
